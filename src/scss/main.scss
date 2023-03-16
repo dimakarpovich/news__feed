@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700;900&display=swap');
+@import"news";
+@import "vars";
+@import "reset";
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+.container {
+    max-width: 1440 px;
+    margin: 0 auto;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    
+}
+

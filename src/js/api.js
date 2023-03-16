@@ -1,0 +1,1 @@
+export const getDayAndTime = (str) => `${str.split('T')[0].slice(5).replace('-', '/')} ${str.split('T')[1].slice(0, -4)}`;
